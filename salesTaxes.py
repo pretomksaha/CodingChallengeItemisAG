@@ -60,7 +60,14 @@ def initialize():
     # function to Initialize the solution for sales taxes problem.
     print('\t\tProblem 1: SALES TAXES\n')
     salesList = inputList.initialize()
+    indexNumbe= [i for i, word in enumerate(salesList) if 'Input' in word]
+    indexNumbe.append(len(salesList))
     actualTax = 10 # % of tax on all goods except books, food, and medical
     importTax = 5 # % of tax on all imported goods
-    price = taxes(salesList, actualTax, importTax)
-    print('\n'.join(price))
+    for i in range(len(indexNumbe)-1):
+        print('Output ', i+1, ':')
+        subSalesList = salesList[indexNumbe[i]+1:indexNumbe[i+1]]
+        price = taxes(subSalesList, actualTax, importTax)
+        print('\n'.join(price))
+        print('\n')
+    print('\n')

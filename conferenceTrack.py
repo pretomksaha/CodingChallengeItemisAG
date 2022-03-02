@@ -43,6 +43,7 @@ def progarmSchedule(programtime,starttime,count):
     return starttime,newprogramList,count
 
 def initialize():
+    #
     track= 1
     programList =inputList.initialize()
     while True:
