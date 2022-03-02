@@ -1,6 +1,6 @@
 import inputList
 def itemize(nameOfItem):
-    # categories item in food, book, medicine and others product section.
+    'categories item in food, book, medicine and others product section.'
     if 'chocolate' in nameOfItem:
         category = "food"
     elif 'book' in nameOfItem:
@@ -13,13 +13,13 @@ def itemize(nameOfItem):
 
 
 def taxes(salesList,actualTax,importTax):
-    # Funtion to split every item and price then calculate the sales taxes and total price
-    # Input:
-    ##### salesList: List of sales including quantity, product name and price.
-    ##### actualTax: % of tax on all goods except books, food, and medical.
-    ##### importTax: % of tax on all imported goods.
-    # Output:
-    ##### priceList: return a list including quantity, product name, price, sales taxes and total price.
+    'Funtion to split every item and price then calculate the sales taxes and total price'
+    'Input:'
+    'salesList: List of sales including quantity, product name and price.'
+    'actualTax: % of tax on all goods except books, food, and medical.'
+    'importTax: % of tax on all imported goods.'
+    'Output:'
+    'priceList: return a list including quantity, product name, price, sales taxes and total price.'
     priceList = []
     totalCost = 0
     totalTaxItem = 0
@@ -57,7 +57,7 @@ def taxes(salesList,actualTax,importTax):
     return priceList
 
 def initialize():
-    # function to Initialize the solution for sales taxes problem.
+    'Function to Initialize the solution for sales taxes problem.'
     print('\t\tProblem 1: SALES TAXES\n')
     salesList = inputList.initialize()
     indexNumbe= [i for i, word in enumerate(salesList) if 'Input' in word]
@@ -70,4 +70,3 @@ def initialize():
         price = taxes(subSalesList, actualTax, importTax)
         print('\n'.join(price))
         print('\n')
-    print('\n')

@@ -1,14 +1,11 @@
 import salesTaxes
 import conferenceTrack
 import merchantGuide
-
-
-
 def main():
-    # Main Method to choose one of the problem and call that function to solve the problem.
-    # Input:
-    ####### wantTO: take a number input according to problem
-    # Output: print solution for choosing problems
+    'Main Method to choose one of the problem and call that function to solve the problem.'
+    'Input:'
+    'wantTO: take a number input according to problem'
+    'Output: print solution for choosing problems'
     while True:
         print('Select the problem you want to solve:')
         print('\tProblem 1: SALES TAXES \n\tProblem 2: CONFERENCE TRACK MANAGEMENT \n\tProblem 3: MERCHANT\'S GUIDE TO THE GALAXY \n\t4.exit')

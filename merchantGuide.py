@@ -1,5 +1,10 @@
 import inputList
 def valueAssassin(iteminList):
+    'Function to assign credit to the metal according Roman Letter.'
+    'Input:'
+    'iteminList: List of Metals'
+    'Output:'
+    'result: List of metal and their credits'
     valueList = {}
     shortList = [num for num in iteminList if len(num) ==2]
     findValue= [num for num in iteminList if num[-1].isdigit()]
@@ -40,21 +45,25 @@ def valueAssassin(iteminList):
     for list in itarateValue:
         finalvalue = calculateCredit(list)
         result.append(finalvalue)
-
     return result
 
-def calculateCredit(CraditList):
-    sum = CraditList[0]
+def calculateCredit(CreditList):
+    'Function to calculate the credits for the questions in the input list.'
+    'input:'
+    'CreditList: List of metal which has assign credit and non assign combinations'
+    'output:'
+    'finalValue: calculated credits for every metal and question.'
+    sum = CreditList[0]
     compareList=[1,10,100,1000]
-    lastvalue = CraditList[0]
+    lastvalue = CreditList[0]
     finalValue = 0
     flag = False
     count=0
-    for i in range(1, len(CraditList)):
-        if (int(CraditList[i]) == lastvalue) and ((int(CraditList[i]) in compareList)):
-            sum = int(CraditList[i])+sum
-            lastvalue = int(CraditList[i])
-            if i == len(CraditList)-1:
+    for i in range(1, len(CreditList)):
+        if (int(CreditList[i]) == lastvalue) and ((int(CreditList[i]) in compareList)):
+            sum = int(CreditList[i])+sum
+            lastvalue = int(CreditList[i])
+            if i == len(CreditList)-1:
                 finalValue= sum
             elif count > 2:
                 print('Please, Check your Input!..')
@@ -62,33 +71,39 @@ def calculateCredit(CraditList):
                 count=count+1
                 flag = True
         else:
-            if (int(CraditList[i]) > lastvalue):
+            if (int(CreditList[i]) > lastvalue):
                 if (flag == True) and (count <2):
-                    finalValue = (int(CraditList[i])*lastvalue)/2-sum
+                    finalValue = (int(CreditList[i])*lastvalue)/2-sum
                     flag =False
                     count = 0
                 if (flag == True) and (count >= 2):
                     print('Please, Check your Input!..')
                 else:
-                    sum = int(CraditList[i]) - sum
-                    lastvalue = int(CraditList[i])
+                    sum = int(CreditList[i]) - sum
+                    lastvalue = int(CreditList[i])
                     finalValue = sum
-            elif (int(CraditList[i]) < lastvalue)and (count <2):
+            elif (int(CreditList[i]) < lastvalue)and (count <2):
                 if flag == True:
-                    finalValue =sum-int(CraditList[i])
+                    finalValue =sum-int(CreditList[i])
                     flag =False
                     count = 0
                 if (flag == True) and (count >= 2):
                     print('Please, Check your Input!..')
                 else:
-                    sum = int(CraditList[i]) + sum
-                    lastvalue = int(CraditList[i])
+                    sum = int(CreditList[i]) + sum
+                    lastvalue = int(CreditList[i])
                     finalValue = sum
             else:
                 print('Please, Check your Input!..')
     return finalValue
 
 def searchValue(findValue):
+    'Function to search credit for non assign metal.'
+    'Input:'
+    'findValue: list of Metal and credit'
+    'Output:'
+    'finalValue: Final credit for every available metal '
+    'itemName: List of the metal'
     sum=0
     lastvalue=findValue[0]
     finalValue=0
@@ -117,6 +132,12 @@ def searchValue(findValue):
 
 
 def separateConditions(ListOfline):
+    'Function to separate condition according their structure.'
+    'Input:'
+    'ListOfline: contain the input conditions and question'
+    'Output:'
+    'listWithValue: assign credits for sell metals and dirt '
+    ' outputList: only have the question and  non logical line.'
     listWithValue = []
     outputList=[]
     for line in ListOfline:
@@ -145,13 +166,15 @@ def separateConditions(ListOfline):
     return listWithValue, outputList
 
 def initialize():
+    'Function that initialize the mercants guide problem.'
+    i=0
     showResult=[]
+    print('\t\tProblem 3: MERCHANT\'S GUIDE TO THE GALAXY')
     programList = inputList.initialize()
     print('Inputs')
     print('\n'.join(programList))
     iteminlist, outputList = separateConditions(programList)
     resultCredits=valueAssassin(iteminlist)
-    i=0
     for eachList in outputList:
         if eachList =='N':
           showResult.append('I have no idea what you are talking about')

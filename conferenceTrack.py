@@ -1,10 +1,18 @@
 import math
 import inputList
 def timeSchedle(startTime,programtime,program,count):
+    'Function that assign every program in time and print a copy'
+    'Input:'
+    'startTime: When the program will start.'
+    'programtime: each program with duration time.'
+    'count: represent normal program (1), lunch (2) and Networking Event (3)'
+    'Output:'
+    'updated starttime'
+    'newprogramList: status of the program (done)'
+    'updated count'
     newprogramList ='done'
     addTime = round((startTime - int(startTime)) * 100)
     programtime = programtime + addTime
-
     durationTime = math.ceil(programtime % 60)
     if durationTime == 0:
         endTime= int(startTime) + (programtime/60)
@@ -25,11 +33,20 @@ def timeSchedle(startTime,programtime,program,count):
             print('05', ':','00', 'PM', ' ', 'Networking Event')
             count=count+1
         newprogramList = program
-
     startTime = round(endTime, 2)
-    return startTime, newprogramList,count
+    return startTime, newprogramList, count
 
 def progarmSchedule(programtime,starttime,count):
+    'Function that spite the time from every line and call the function to creat schedule.'
+    'Input:'
+    'startTime: When the program will start.'
+    'programtime: each program with duration time.'
+    'count: represent normal program (1), lunch (2) and Networking Event (3)'
+    'Output:'
+    'updated starttime'
+    'newprogramList: status of the program (done)'
+    'updated count'
+
     schedule = []
     newprogramList ='done'
     timeTable = [word for word in programtime.split() if ('min' in word) or ('lightning' in word)]
@@ -43,11 +60,12 @@ def progarmSchedule(programtime,starttime,count):
     return starttime,newprogramList,count
 
 def initialize():
-    #
-    track= 1
-    programList =inputList.initialize()
+    'function to Initialize the solution for conference track management problem.'
+    print('\t\tProblem 2: CONFERENCE TRACK MANAGEMENT \n')
+    track= 1 # track for everyday
+    programList =inputList.initialize() # call the input function.
     while True:
-        starttime = 9
+        starttime = 9 # starting time for every track.
         count = 1
         newprogramList =[]
         print('Track', track)
