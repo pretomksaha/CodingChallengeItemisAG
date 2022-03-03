@@ -37,10 +37,10 @@ main() method call all of the other methods to solve the three problem. \
 ## option to choose \
 \
 Select the problem you want to solve: \
-	Problem 1: SALES TAXES \
-	Problem 2: CONFERENCE TRACK MANAGEMENT \ 
-	Problem 3: MERCHANT'S GUIDE TO THE GALAXY \
-	4.exit\
+	<li>Problem 1: SALES TAXES </li>
+	<li>Problem 2: CONFERENCE TRACK MANAGEMENT </li> 
+	<li>Problem 3: MERCHANT'S GUIDE TO THE GALAXY </li>
+	<li>4.exit</li>
 Put a input number according to your choose:\
 \
 inpurList() methods have two fuction.\
