@@ -1,8 +1,8 @@
 # CodingChallengeItemisAG
 It's a coding challenge given by  itemis Ag. Three problems  
-###1: SALES TAXES .  
-###2: CONFERENCE TRACK MANAGEMENT.  
-###3: MERCHANT'S GUIDE TO THE GALAXY
+1: SALES TAXES .  
+2: CONFERENCE TRACK MANAGEMENT.  
+3: MERCHANT'S GUIDE TO THE GALAXY
 
 ## Problem 1: SALES TAXES
 Basic sales tax is applicable at a rate of 10% on all goods, except books, food, and medical
@@ -29,3 +29,5 @@ Buying and selling over the galaxy requires you to convert numbers and units, an
 decided to write a program to help you.
 The numbers used for intergalactic transactions follows similar convention to the roman
 numerals and you have painstakingly collected the appropriate translation between them.
+
+Problem description in details on the following pdf:  
