@@ -43,30 +43,30 @@ Select the problem you want to solve: \
 	<li>4.exit</li>
 Put a input number according to your choose:\
 \
-inpurList() methods have two fuction.\
-takeInput(): Function take input values in list.\
-findInput():Function to take file location and convert input as list.\
+<b>inpurList()<\b> methods have two fuction.\
+<b>takeInput():<\b> Function take input values in list.\
+<b>findInput():<\b>Function to take file location and convert input as list.\
 selcet the way want to give inputs for problems:\
 \
 Do you want manual input?\
 Type yes or no:\
 \
 Problem 1: SALES TAXES\
-salesTaxes() has three funcions.\
-initialize(): Function to Initialize the solution for sales taxes problem.\
-itemize():categories item in food, book, medicine and others product section.\
-taxes(): Funtion to split every item and price then calculate the sales taxes and total price.\
+<b>salesTaxes()<\b> has three funcions.\
+<b>initialize():<\b> Function to Initialize the solution for sales taxes problem.\
+<b>itemize():<\b>categories item in food, book, medicine and others product section.\
+<b>taxes():<\b> Funtion to split every item and price then calculate the sales taxes and total price.\
 \
 Problem 2: CONFERENCE TRACK MANAGEMENT \
-conferenceTrack() has three function.\
-initialize(): function to Initialize the solution for conference track management problem.\
-progarmSchedule(): Function that spite the time from every line and call the function to creat schedule.\
-timeSchedle(): Function that assign every program in time and print a copy.\
+<b>conferenceTrack()<\b> has three function.\
+<b>initialize():<\b> function to Initialize the solution for conference track management problem.\
+<b>progarmSchedule():<\b> Function that spite the time from every line and call the function to creat schedule.\
+<b>timeSchedle():<\b> Function that assign every program in time and print a copy.\
 \
 Problem 3: MERCHANT'S GUIDE TO THE GALAXY\
-merchantGuide() has five functions.\
-initialize(): Function that initialize the mercants guide problem.\
-separateConditions(): Function to separate condition according their structure.\
-valueAssassin(): Function to assign credit to the metal according Roman Letter.\
-calculateCredit(): Function to calculate the credits for the questions in the input list.\
-searchValue(): Function to search credit for non assign metal.
+<b>merchantGuide()<\b> has five functions.\
+<b>initialize():<\b> Function that initialize the mercants guide problem.\
+<b>separateConditions():<\b> Function to separate condition according their structure.\
+<b>valueAssassin():<\b> Function to assign credit to the metal according Roman Letter.\
+<b>calculateCredit():<\b> Function to calculate the credits for the questions in the input list.\
+<b>searchValue():<\b> Function to search credit for non assign metal.
