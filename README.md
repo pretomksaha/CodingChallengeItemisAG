@@ -1,5 +1,8 @@
 # CodingChallengeItemisAG
-It's a coding challenge given by  itemis Ag. Three problems  1: SALES TAXES .  2: CONFERENCE TRACK MANAGEMENT.  3: MERCHANT'S GUIDE TO THE GALAXY
+It's a coding challenge given by  itemis Ag. Three problems  
+###1: SALES TAXES .  
+###2: CONFERENCE TRACK MANAGEMENT.  
+###3: MERCHANT'S GUIDE TO THE GALAXY
 
 ## Problem 1: SALES TAXES
 Basic sales tax is applicable at a rate of 10% on all goods, except books, food, and medical
