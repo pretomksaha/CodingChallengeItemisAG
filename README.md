@@ -32,25 +32,25 @@ numerals and you have painstakingly collected the appropriate translation betwee
 
 Problem description in details on the following pdf:  https://github.com/pretomksaha/CodingChallengeItemisAG/blob/master/Coding%20challenge%20itemis.pdf
 
-# Solutions for the problems
-main() method call all of the other methods to solve the three problem.
-## option to choose
-
-Select the problem you want to solve:
-	Problem 1: SALES TAXES 
-	Problem 2: CONFERENCE TRACK MANAGEMENT 
-	Problem 3: MERCHANT'S GUIDE TO THE GALAXY 
-	4.exit
-Put a input number according to your choose:
-
-inpurList() methods have two fuction.
-takeInput(): Function take input values in list.
-findInput():Function to take file location and convert input as list.
-selcet the way want to give inputs for problems:
-
-Do you want manual input?
-Type yes or no:
-
+# Solutions for the problems\
+main() method call all of the other methods to solve the three problem.\
+## option to choose\
+\
+Select the problem you want to solve:\
+	Problem 1: SALES TAXES \
+	Problem 2: CONFERENCE TRACK MANAGEMENT\ 
+	Problem 3: MERCHANT'S GUIDE TO THE GALAXY \
+	4.exit\
+Put a input number according to your choose:\
+\
+inpurList() methods have two fuction.\
+takeInput(): Function take input values in list.\
+findInput():Function to take file location and convert input as list.\
+selcet the way want to give inputs for problems:\
+\
+Do you want manual input?\
+Type yes or no:\
+\
 Problem 1: SALES TAXES\
 salesTaxes() has three funcions.\
 initialize(): Function to Initialize the solution for sales taxes problem.\
@@ -69,4 +69,4 @@ initialize(): Function that initialize the mercants guide problem.\
 separateConditions(): Function to separate condition according their structure.\
 valueAssassin(): Function to assign credit to the metal according Roman Letter.\
 calculateCredit(): Function to calculate the credits for the questions in the input list.\
-searchValue(): Function to search credit for non assign metal.\
+searchValue(): Function to search credit for non assign metal.
