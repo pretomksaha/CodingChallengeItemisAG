@@ -51,7 +51,7 @@ selcet the way want to give inputs for problems:
 Do you want manual input?
 Type yes or no:
 
-Problem 1: SALES TAXES
+Problem 1: SALES TAXES\
 salesTaxes() has three funcions.
 initialize(): Function to Initialize the solution for sales taxes problem.
 itemize():categories item in food, book, medicine and others product section.
