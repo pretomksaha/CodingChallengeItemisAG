@@ -70,3 +70,5 @@ Problem 3: MERCHANT'S GUIDE TO THE GALAXY\
 <b>valueAssassin():</b> Function to assign credit to the metal according Roman Letter.\
 <b>calculateCredit():</b> Function to calculate the credits for the questions in the input list.\
 <b>searchValue():</b> Function to search credit for non assign metal.
+
+Detail documataion about arcitecture, user manual and idea about the sulution are in that file: 
