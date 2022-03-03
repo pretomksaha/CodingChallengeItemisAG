@@ -52,21 +52,21 @@ Do you want manual input?
 Type yes or no:
 
 Problem 1: SALES TAXES\
-salesTaxes() has three funcions.
-initialize(): Function to Initialize the solution for sales taxes problem.
-itemize():categories item in food, book, medicine and others product section.
-taxes(): Funtion to split every item and price then calculate the sales taxes and total price.
-
-Problem 2: CONFERENCE TRACK MANAGEMENT 
-conferenceTrack() has three function.
-initialize(): function to Initialize the solution for conference track management problem.
-progarmSchedule(): Function that spite the time from every line and call the function to creat schedule.
-timeSchedle(): Function that assign every program in time and print a copy.
-
-Problem 3: MERCHANT'S GUIDE TO THE GALAXY
-merchantGuide() has five functions.
-initialize(): Function that initialize the mercants guide problem.
-separateConditions(): Function to separate condition according their structure.
-valueAssassin(): Function to assign credit to the metal according Roman Letter.
-calculateCredit(): Function to calculate the credits for the questions in the input list.
-searchValue(): Function to search credit for non assign metal.
+salesTaxes() has three funcions.\
+initialize(): Function to Initialize the solution for sales taxes problem.\
+itemize():categories item in food, book, medicine and others product section.\
+taxes(): Funtion to split every item and price then calculate the sales taxes and total price.\
+\
+Problem 2: CONFERENCE TRACK MANAGEMENT \
+conferenceTrack() has three function.\
+initialize(): function to Initialize the solution for conference track management problem.\
+progarmSchedule(): Function that spite the time from every line and call the function to creat schedule.\
+timeSchedle(): Function that assign every program in time and print a copy.\
+\
+Problem 3: MERCHANT'S GUIDE TO THE GALAXY\
+merchantGuide() has five functions.\
+initialize(): Function that initialize the mercants guide problem.\
+separateConditions(): Function to separate condition according their structure.\
+valueAssassin(): Function to assign credit to the metal according Roman Letter.\
+calculateCredit(): Function to calculate the credits for the questions in the input list.\
+searchValue(): Function to search credit for non assign metal.\
