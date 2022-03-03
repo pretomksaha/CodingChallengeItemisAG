@@ -32,13 +32,13 @@ numerals and you have painstakingly collected the appropriate translation betwee
 
 Problem description in details on the following pdf:  https://github.com/pretomksaha/CodingChallengeItemisAG/blob/master/Coding%20challenge%20itemis.pdf
 
-# Solutions for the problems\
-main() method call all of the other methods to solve the three problem.\
-## option to choose\
+# Solutions for the problems \
+main() method call all of the other methods to solve the three problem. \
+## option to choose \
 \
-Select the problem you want to solve:\
+Select the problem you want to solve: \
 	Problem 1: SALES TAXES \
-	Problem 2: CONFERENCE TRACK MANAGEMENT\ 
+	Problem 2: CONFERENCE TRACK MANAGEMENT \ 
 	Problem 3: MERCHANT'S GUIDE TO THE GALAXY \
 	4.exit\
 Put a input number according to your choose:\
